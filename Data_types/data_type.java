@@ -12,16 +12,18 @@ public class data_type{
 
         /*In primitive datatypes consists 8 types, they are listed below */
 
-        byte a =100;
-        short b =1000;
-        int c =100000;
-        long d =10000000L;
-        float e =11.5f;
-        double f =11.9999;
-        char g ='s';
+        byte a =100;        //Stores whole numbers from -128 to 127
+        short b =1000;      //Stores whole numbers from -32,768 to 32,767
+        int c =100000;      //Stores whole numbers from -2,147,483,648 to 2,147,483,647
+        long d =10000000L;  //Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        float e =11.5f;     //Stores 6 to 7 decimal numbers
+        double f =11.9999;  //Stores 15 decimal numbers
+        char g ='s';        //Stores single charater
         boolean h = true;
 
-        System.out.println(a);
+            //print the values
+
+        System.out.println(a); 
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
@@ -43,10 +45,6 @@ public class data_type{
 
         System.out.println(i);
         System.out.println(j.length);
-
-
-
-
-        
+ 
     }
 }
