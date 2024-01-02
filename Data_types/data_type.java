@@ -1,5 +1,7 @@
 package Data_types;
 
+import java.util.Arrays;
+
 public class data_type{
     public static void main(String args[])
     {
@@ -10,45 +12,41 @@ public class data_type{
 
         /*In primitive datatypes consists 8 types, they are listed below */
 
-        System.out.println("1.Integer");
-        int a = 10000;
-        System.out.println(a+"\n");
-
-        System.out.println("2.Float");
-        Float b = 10.05f;
-        System.out.println(b+"\n");
-
-        System.out.println("3.Double");
-        Double c = 10.00004d;
-        System.out.println(c+"\n");
-
-        System.out.println("4.short");
-        Short d = 1005;
-        System.out.println(d+"\n");
-
-        System.out.println("5.byte");
-        byte e = 10;
-        System.out.println(e+"\n");
-
-        System.out.println("6.char");
-        char f = 's';
-        System.out.println(f+"\n");
-
-        System.out.println("7.long");
-        long g = 100005;
-        System.out.println(g+"\n");
-
-        System.out.println("8.boolean");
+        byte a =100;
+        short b =1000;
+        int c =100000;
+        long d =10000000L;
+        float e =11.5f;
+        double f =11.9999;
+        char g ='s';
         boolean h = true;
-        System.out.println(h+"\n");
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(h +"\n");
+
 
         System.out.println("non-primitive datatypes"+"\n");
 
         /*It consists string,arrays,..etc., */
 
-        System.out.println("1.String");
-        String i="welcome";
-        System.out.println(i +"\n");
+        String i ="welcome";
+        int j[] = new int[3];
+        j[0] =5;
+        j[1]=6;
+        j[2]=7;
+
+        System.out.println(i);
+        System.out.println(j.length);
+
+
+
+
         
     }
 }
