@@ -6,6 +6,8 @@ public class Operators {
 
     public static void main(String args[]){
 
+        //get data from user scanner method
+
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
         int b = input.nextInt();
