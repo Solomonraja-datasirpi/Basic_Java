@@ -1,11 +1,19 @@
 package Operators;
 
+import java.util.Scanner;
+
 public class Operators {
 
     public static void main(String args[]){
 
-        int a = 10;
-        int b = 20;
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
+
+
+
+        //int a = 10;
+        //int b = 20;
 
         //Logical operator
 
