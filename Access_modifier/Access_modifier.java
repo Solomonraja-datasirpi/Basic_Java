@@ -9,7 +9,6 @@ public class Access_modifier {
         case1();                    //calling method
 
         System.out.println(case2());
-         //arguments
         System.out.println("success");
 
     }
@@ -22,7 +21,7 @@ public class Access_modifier {
     }
 
     private static String case2(){
-        System.out.println(case3(5, 5));
+        System.out.println(case3(5, 5));  //arguments
 
         return "welcome";
 
