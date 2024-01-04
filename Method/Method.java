@@ -4,7 +4,7 @@ public class Method {
 
     public static void main(String[] args) {
 
-        //multiple methods can have the same name with different parameters:
+       
 
         add();
         add(25);
@@ -23,6 +23,8 @@ public class Method {
     }
 
     //method overloading
+
+    //multiple methods can have the same name with different parameters
 
     static void add(int a,int b){
         int c=a+b;
