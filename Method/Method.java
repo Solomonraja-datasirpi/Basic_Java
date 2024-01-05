@@ -1,5 +1,8 @@
 package Method;
 
+import Inheritance.Inheritance;
+import Inheritance.Inheritance.c;
+
 public class Method {
 
     public static void main(String[] args) {
@@ -10,6 +13,8 @@ public class Method {
         add(25);
         add(2,2);
         add(2,2,8);
+        
+        
         
     }
 
