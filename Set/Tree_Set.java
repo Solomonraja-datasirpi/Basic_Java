@@ -6,6 +6,10 @@ import java.util.TreeSet;
 public class Tree_Set {
 
     public static void main(String[] args) {
+
+         // its store the data in the way of natural sorting method
+        // can not store duplicate data
+        
         TreeSet myuse = new TreeSet<>();
         myuse.add(5);
         myuse.add(9);
