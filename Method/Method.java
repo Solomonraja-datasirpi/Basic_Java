@@ -1,7 +1,6 @@
 package Method;
 
 import Inheritance.Inheritance;
-import Inheritance.Inheritance.c;
 
 public class Method {
 
