@@ -6,17 +6,26 @@ import java.util.*;
 public class loops_collection {
 
     public static void main(String[] args) {
+
+        //collection
+
         List<Integer> mylist = Arrays.asList(1,3,6,9,12);
 
         System.out.println(mylist.size());
+        Collections.sort(mylist);
+
+
+        // Forloop
 
         for(int i=0;i<mylist.size();i++){
             System.out.println(i + ":" +mylist.get(i));
         }
 
-        for (Object a: mylist) {
+        //for each loop
 
-            System.out.println(mylist.get(0));
+        for (Object a: mylist) {
+            System.out.println(a);
+            
             
         }
 
